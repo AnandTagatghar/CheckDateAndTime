@@ -1,0 +1,37 @@
+.heading {
+    color : #EAB308;
+    text-align: center;
+  }
+  .text {
+    text-align: center;
+    padding: 1rem;
+    color: #EAB308;
+  }
+  body {
+    max-width: 600px;
+    margin: auto;
+  }
+  .form {
+    padding: 1rem;
+    text-align: center;
+  }
+  #str2 {
+    padding: 1rem;
+    border: 2px solid black;
+  }
+  .button {
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+    height:200px;
+  }
+  #button {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 2rem;
+  }
+  #str3 {
+    text-align: center;
+    border: 2px solid black;
+    padding:2rem;
+  }
