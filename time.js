@@ -6,8 +6,13 @@ function clickHandler(){
   var two = str2.value;
   var obj = new Date();
   var time = obj.toLocaleString("en-US", {timeZone:two});
-  document.getElementById('str3').innerHTML = time;
-  setTimeout(clickHandler,1000);
+  if(two === null){
+    document.getElementById('str3').innerHTML = "give the currrect location.";
+  }
+  else{
+    document.getElementById('str3').innerHTML = time;
+    setTimeout(clickHandler,1000);
+  }  
 }
 
 buttonSubmit.addEventListener("click", clickHandler);
